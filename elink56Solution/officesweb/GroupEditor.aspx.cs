@@ -10,10 +10,16 @@ using Models;
 public partial class GroupEditor : WebUI.GroupPage
 {
     public BLL.GroupBLL groupbll = new GroupBLL();
-    
+    public string subid = string.Empty, GroupId=string.Empty;
 
     protected void Page_Load(object sender, EventArgs e)
     {
+
+
+        this.Action();
+
+        subid = this.RequestSubjectionId;
+        GroupId = this.RequestGroupId;
 
     }
 

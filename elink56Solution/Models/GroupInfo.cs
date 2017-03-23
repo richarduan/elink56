@@ -74,7 +74,21 @@ namespace Models
             set { _group_lower = value; }
             get { return _group_lower; }
         }
-        
+
+
+        private string _group_recommend;
+        public string Group_recommend
+        {
+            set { _group_recommend = value; }
+            get { return _group_recommend; }
+        }
+
+        private string _group_createdate;
+        public string Group_createdate
+        {
+            set { _group_createdate = value; }
+            get { return _group_createdate; }
+        }
 
 
         #endregion

@@ -38,13 +38,13 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>所属部门</label>
-                                    <input id="group_id" class="form-control group_id val" placeholder="系统自动分配" type="text" disabled>
+                                    <input id="group_subjectionId" class="form-control group_subjectionId" placeholder="系统自动分配" type="text" disabled>
                                 </div>
                             </div>
                              <div class="col-md-6">
                                 <div class="form-group">
                                     <label>部门编码</label>
-                                    <input id="group_id" class="form-control group_id val" placeholder="系统自动分配" type="text" disabled>
+                                    <input id="group_id" class="form-control group_id " placeholder="系统自动分配" type="text" disabled>
                                 </div>
                             </div>
 
@@ -56,12 +56,26 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>部门名称</label>
-                                    <input id="group_name" class="form-control group_name val" placeholder="请输入部门名称" type="text">
+                                    <input id="group_name" class="form-control group_name val" placeholder="请输入部门名称 必填" type="text">
                                 </div>
                             </div>
 
 
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>部门介绍</label>
+                                    <textarea id="group_recommend" class="form-control group_recommend val"  placeholder="请简述该部门定位、职责、业务范围等信息。" ></textarea>
+                                </div>
+                            </div>
+
+
+
                         </div>
+
+
+
+
+
 
 
                     </div>
@@ -95,8 +109,14 @@
 
 
         $("#save").click(function () {
+
+
+
             var data = requestInput(".val");
-            $.postJSON("GroupEditor.aspx?subjectionId=0", data, function () {
+            data.action = "editorData";
+            data.subjectionId = "<%=subid%>";
+            data.GroupId = "<%=GroupId%>";
+            $.postJSON("GroupEditor.aspx", data, function () {
 
             
             });

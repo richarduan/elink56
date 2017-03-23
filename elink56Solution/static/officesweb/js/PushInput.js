@@ -8,11 +8,12 @@ function requestInput(DatasInput) {
 
         var objInfo = $(this);
 
-        if (objInfo.attr("type") == "text" || objInfo.attr("type") == "hidden" || objInfo.attr("type") == "textarea") {
+        if (objInfo.prop("tagName") == "TEXTAREA") {
+            _data[objInfo.attr("id")] = objInfo.val();
+            
+        } else if (objInfo.attr("type") == "text" || objInfo.attr("type") == "hidden" || objInfo.attr("type") == "textarea") {
             _data[objInfo.attr("id")] = objInfo.val();
         }
-
-
 
     });
 

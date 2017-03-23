@@ -1,0 +1,11 @@
+E:\代码\elink56\elink56Solution\BLL\bin\Debug\BLL.dll
+E:\代码\elink56\elink56Solution\BLL\bin\Debug\BLL.pdb
+E:\代码\elink56\elink56Solution\BLL\bin\Debug\Common.dll
+E:\代码\elink56\elink56Solution\BLL\bin\Debug\DAL.dll
+E:\代码\elink56\elink56Solution\BLL\bin\Debug\Models.dll
+E:\代码\elink56\elink56Solution\BLL\bin\Debug\Common.pdb
+E:\代码\elink56\elink56Solution\BLL\bin\Debug\DAL.pdb
+E:\代码\elink56\elink56Solution\BLL\bin\Debug\Models.pdb
+E:\代码\elink56\elink56Solution\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\代码\elink56\elink56Solution\BLL\obj\Debug\BLL.dll
+E:\代码\elink56\elink56Solution\BLL\obj\Debug\BLL.pdb

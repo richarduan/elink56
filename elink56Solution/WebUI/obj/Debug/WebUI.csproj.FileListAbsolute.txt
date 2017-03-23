@@ -1,0 +1,13 @@
+E:\代码\elink56\elink56Solution\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\WebUI.dll
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\WebUI.pdb
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\BLL.dll
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\Common.dll
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\Models.dll
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\BLL.pdb
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\Common.pdb
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\Models.pdb
+E:\代码\elink56\elink56Solution\WebUI\obj\Debug\WebUI.dll
+E:\代码\elink56\elink56Solution\WebUI\obj\Debug\WebUI.pdb
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\DAL.dll
+E:\代码\elink56\elink56Solution\WebUI\bin\Debug\DAL.pdb

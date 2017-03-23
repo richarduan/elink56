@@ -1,0 +1,9 @@
+E:\代码\elink56\elink56Solution\DAL\bin\Debug\DAL.dll
+E:\代码\elink56\elink56Solution\DAL\bin\Debug\DAL.pdb
+E:\代码\elink56\elink56Solution\DAL\bin\Debug\Common.dll
+E:\代码\elink56\elink56Solution\DAL\bin\Debug\Models.dll
+E:\代码\elink56\elink56Solution\DAL\bin\Debug\Common.pdb
+E:\代码\elink56\elink56Solution\DAL\bin\Debug\Models.pdb
+E:\代码\elink56\elink56Solution\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\代码\elink56\elink56Solution\DAL\obj\Debug\DAL.dll
+E:\代码\elink56\elink56Solution\DAL\obj\Debug\DAL.pdb

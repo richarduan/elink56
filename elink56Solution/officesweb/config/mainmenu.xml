@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<menulist>
+
+  <menuInfo name="公司架构与人员信息" url="" blank="_top" JurisdictionsId="1">
+    <header  name="公司组织架构" url="GroupLister.aspx" blank="_top" icon="fa-institution" JurisdictionsId="1986"></header>
+    
+    <header n="" name="员工信息" url="consignments.aspx" blank="_top" icon="fa-users" JurisdictionsId="1986">
+      <menu name="创建新部门" url="GroupEditor.aspx" icon="fa-circle-o" JurisdictionsId="1985" blank="_top"></menu>
+      <menu name="222" url="callfors.aspx" icon="fa-circle-o" JurisdictionsId="1985" blank="_top"></menu>
+      <menu name="3333" url="callfors.aspx" icon="fa-circle-o" JurisdictionsId="1985" blank="_top"></menu>
+    </header>
+    
+  </menuInfo>
+
+  <menuInfo name="官网信息" url="" blank="_top" JurisdictionsId="1">
+    <header name="委托找货管理" url="consignments.aspx" blank="_top" icon="fa-institution" JurisdictionsId="1986"></header>
+    <header name="委托找货管理" url="consignments.aspx" blank="_top" icon="fa-institution" JurisdictionsId="1986"></header>
+  </menuInfo>
+
+</menulist>

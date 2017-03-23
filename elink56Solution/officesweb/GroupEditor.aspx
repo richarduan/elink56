@@ -33,28 +33,36 @@
                     </div>
 
                     <div class="box-body">
-                        <div class="row">
 
+                        <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label>部门名称</label>
-                                    <input id="group_name" class="form-control group_name val" placeholder="Enter email" type="text">
+                                    <label>所属部门</label>
+                                    <input id="group_id" class="form-control group_id val" placeholder="系统自动分配" type="text" disabled>
                                 </div>
                             </div>
-
-                            <div class="col-md-6">
+                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>部门编码</label>
                                     <input id="group_id" class="form-control group_id val" placeholder="系统自动分配" type="text" disabled>
                                 </div>
                             </div>
+
                         </div>
+
 
                         <div class="row">
-                            <%=Groupselect(0) %>
- 
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>部门名称</label>
+                                    <input id="group_name" class="form-control group_name val" placeholder="请输入部门名称" type="text">
+                                </div>
+                            </div>
+
 
                         </div>
+
 
                     </div>
 
